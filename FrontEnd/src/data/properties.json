@@ -1,0 +1,30 @@
+[{
+  "Id":1,
+  "Name" : "Birla House",
+  "Type":"House",
+  "Price":5000
+},
+{
+  "Id":2,
+  "Name" : "Erose House",
+  "Type":"House",
+  "Price":8000
+},
+{
+  "Id":3,
+  "Name" : "Ambhuja House",
+  "Type":"House",
+  "Price":7000
+},
+{
+  "Id":4,
+  "Name" : "Sandeep House",
+  "Type":"House",
+  "Price":7000
+},
+{
+  "Id":5,
+  "Name" : "Naveen House",
+  "Type":"House",
+  "Price":7000
+}]
