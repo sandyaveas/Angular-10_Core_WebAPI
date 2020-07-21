@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertyCardComponent implements OnInit {
 
-  // Property: any = {
-  //   "Id":1,
-  //   "Name" : "Birla House",
-  //   "Type":"House",
-  //   "Price":5000
-  // }
+  Property: any = {
+    "Id":1,
+    "Name" : "Birla House",
+    "Type":"House",
+    "Price":5000
+  }
 
   constructor() { }
 
