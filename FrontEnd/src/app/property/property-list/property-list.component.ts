@@ -9,7 +9,7 @@ import { HousingService } from 'src/app/services/housing.service';
 })
 export class PropertyListComponent implements OnInit {
 
-  Properties: any;
+  properties: any;
 
   constructor(private housingService: HousingService) { }
 
@@ -17,7 +17,7 @@ export class PropertyListComponent implements OnInit {
 
     this.housingService.getAllProperties().subscribe(
       data => {
-        this.Properties = data;
+        this.properties = data;
         console.log(data);
       }, error => {
         console.log(error);
