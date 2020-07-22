@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-add-property',
@@ -13,8 +14,12 @@ export class AddPropertyComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onBack(){
+  onBack(): void{
     this.router.navigate(['/']);
+  }
+
+  onSumbit(Form: NgForm): void{
+    console.log(Form)
   }
 
 }

@@ -13,9 +13,6 @@ export class PropertyCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
   }
-
-
 
 }
